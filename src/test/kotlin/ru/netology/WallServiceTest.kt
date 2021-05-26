@@ -10,7 +10,7 @@ class WallServiceTest {
     fun addNotZero() {
         val post = Post(0)
         WallService.add(post)
-        assertEquals(1, WallService.posts.last().id)
+        assertEquals(3, WallService.posts.last().id)
     }
 
     @Test
