@@ -2,7 +2,7 @@ package ru.netology
 
 //создание синглтона - Объект WallService, который внутри себя хранит посты в массиве
 object WallService {
-    // val posts = emptyArray<Post>()
+
     val posts: ArrayList<Post> = arrayListOf()
 
     fun add(post: Post): Post {
